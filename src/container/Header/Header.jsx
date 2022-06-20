@@ -1,8 +1,7 @@
 import React from 'react';
 
 import { SubHeading } from '../../components';
-// import { images } from '../../constants';
-import brisket from '../../assets/brisket.webp'
+import { images } from '../../constants';
 
 import './Header.css';
 
@@ -19,7 +18,7 @@ const Header = () => (
       {/* <img src={images.welcome} alt="header_img" /> */}
 
       {/* image would not load as webp, importing directly */}
-      <img src={brisket} alt="header_img" />
+      <img src={images.brisket} alt="header_img" />
     </div>
   </div>
 );

@@ -8,8 +8,8 @@ import {
 	Gallery,
 	Header,
 	Intro,
-	Laurels,
-	SpecialMenu,
+	// Laurels,
+	// SpecialMenu,
 } from './container';
 import { Navbar } from './components';
 import './App.css';
@@ -22,7 +22,7 @@ const App = () => (
 		{/* <SpecialMenu /> */}
 		<Chef />
 		<Intro />
-		<Laurels />
+		{/* <Laurels /> */}
 		<Gallery />
 		<FindUs />
 		<Footer />
